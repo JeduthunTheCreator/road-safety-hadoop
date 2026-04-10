@@ -18,7 +18,7 @@ A distributed data engineering project analysing 100,000+ road accident records 
   - 3 DataNodes
 - Distributed storage using HDFS
 - MapReduce job for data processing
-- Optional Spark integration for advanced analytics
+- Spark integration for advanced analytics
   
 <p align="center">
   <img src="assets/Hadoop Cluster Architecture.drawio.png" width="400">
@@ -78,7 +78,10 @@ hadoop jar AccidentIndexPerCasualtySeverity.jar /input /output
   <img src="assets/Hadoop Job Running 2.png" width="800">
 </p>
 
-
+### Spark Execution
+<p align="center">
+  <img src="assets/Apache Spark Diagram.png" width="800">
+</p>
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
