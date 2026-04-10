@@ -21,7 +21,7 @@ A distributed data engineering project analysing 100,000+ road accident records 
 - Optional Spark integration for advanced analytics
   
 <p align="center">
-  <img src="assets/Hadoop Cluster diagram.drawio.png" width="400">
+  <img src="assets/Hadoop Cluster Architecture.drawio.png" width="400">
 </p>
 
 ## Problem Identification
@@ -35,6 +35,14 @@ This project uses Hadoop MapReduce to analyse UK road safety data and identify h
 - Severity Band 3: 102,705 accidents
 
 Less severe accidents are significantly more frequent, highlighting where preventive measures could have the highest impact.
+
+<p align="center">
+  <img src="assets/Hadoop Output 1.png" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/Hadoop Output 2.png" width="400">
+</p>
 
 ## Data Processing Pipeline
 - Load CSV dataset into HDFS
@@ -58,6 +66,17 @@ hadoop jar AccidentIndexPerCasualtySeverity.jar /input /output
 
 ## Demo
 ### Configuration 
+<p align="center">
+  <img src="assets/hdfs-site.xml config.png" width="800">
+</p>
+
+### Execution
+<p align="center">
+  <img src="assets/Hadoop Job Running 1.png" width="800">
+</p>
+<p align="center">
+  <img src="assets/Hadoop Job Running 2.png" width="800">
+</p>
 
 
 
