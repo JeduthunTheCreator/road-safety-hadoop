@@ -70,7 +70,7 @@ hadoop jar AccidentIndexPerCasualtySeverity.jar /input /output
   <img src="assets/hdfs-site.xml config.png" width="800">
 </p>
 
-### Execution
+### Hadoop Job Running
 <p align="center">
   <img src="assets/Hadoop Job Running 1.png" width="800">
 </p>
